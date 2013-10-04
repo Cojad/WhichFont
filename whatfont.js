@@ -1,4 +1,4 @@
-function _whatFont() {
+var _whatFont = (function () {
 	'use strict';
 	var
 	VER = "1.7",
@@ -831,5 +831,5 @@ function _whatFont() {
 	};
 
 	return _wf;
-}
+})();
 
